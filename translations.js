@@ -26,6 +26,7 @@ const translations = {
         // Programa 1 semana
         'program_1week_duration': '1 Semana',
         'program_1week_title': 'Programa Master (1 Semana)',
+        'program_1week_feature0': 'Alojamiento y comidas incluidas',
         'program_1week_feature1': '5 días de sesiones de entrenamiento de élite',
         'program_1week_feature2': 'Entrenamiento profesional con staff del CD Leganés',
         'program_1week_feature3': 'Evaluación táctica y técnica',
@@ -40,6 +41,7 @@ const translations = {
         // Programa 15 días
         'program_15days_duration': '15 Días',
         'program_15days_title': 'Programa Pro (15 Días)',
+        'program_15days_feature0': 'Alojamiento y comidas incluidas',
         'program_15days_feature1': '10 días de sesiones intensivas de entrenamiento',
         'program_15days_feature3': 'Evaluación completa de habilidades',
         'program_15days_feature4': 'Plan de desarrollo personalizado',
@@ -55,6 +57,7 @@ const translations = {
         // Programa 1 mes
         'program_1month_duration': '1 Mes',
         'program_1month_title': 'Programa Élite (1 Mes)',
+        'program_1month_feature0': 'Alojamiento y comidas incluidas',
         'program_1month_feature1': '20 días de entrenamiento de nivel profesional',
         'program_1month_feature2': 'Integración con la estructura de entrenamiento del CD Leganés',
         'program_1month_feature4': 'Desarrollo técnico y táctico integral',
@@ -212,6 +215,7 @@ const translations = {
         // 1 Week Program
         'program_1week_duration': '1 Week',
         'program_1week_title': 'Master Program (1 Week)',
+        'program_1week_feature0': 'Accommodation and meals included',
         'program_1week_feature1': '5 days of elite training sessions',
         'program_1week_feature2': 'Professional training with CD Leganés staff',
         'program_1week_feature3': 'Tactical and technical evaluation',
@@ -226,6 +230,7 @@ const translations = {
         // 15 Days Program
         'program_15days_duration': '15 Days',
         'program_15days_title': 'Pro Program (15 Days)',
+        'program_15days_feature0': 'Accommodation and meals included',
         'program_15days_feature1': '10 days of intensive training sessions',
         'program_15days_feature3': 'Comprehensive skills assessment',
         'program_15days_feature4': 'Personalized development plan',
@@ -241,6 +246,7 @@ const translations = {
         // 1 Month Program
         'program_1month_duration': '1 Month',
         'program_1month_title': 'Elite Program (1 Month)',
+        'program_1month_feature0': 'Accommodation and meals included',
         'program_1month_feature1': '20 days of professional-level training',
         'program_1month_feature2': 'Integration with CD Leganés training structure',
         'program_1month_feature4': 'Comprehensive technical and tactical development',
