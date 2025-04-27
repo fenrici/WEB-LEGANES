@@ -1188,4 +1188,69 @@ header .container {
             width: 100%;
         }
     }
+}
+
+/* Estilos para validación de formularios */
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+    border-color: #d63031 !important;
+    box-shadow: 0 0 0 1px rgba(214, 48, 49, 0.2);
+    background-color: rgba(214, 48, 49, 0.05);
+}
+
+.error-message {
+    color: #d63031;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    animation: slideInRight 0.3s ease-out;
+}
+
+.success-message i {
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Estilos para el indicador de carga */
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 } 
