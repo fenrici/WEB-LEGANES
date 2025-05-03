@@ -178,9 +178,9 @@ const translations = {
         
         // Opciones de programa
         'program_select': 'Elegir un programa',
-        'program_select_1week': '1 Semana - Programa Master ($3.500)',
-        'program_select_15days': '15 Días - Programa Pro ($5.400)',
-        'program_select_1month': '1 Mes - Programa Élite ($7.900)',
+        'program_select_1week': '1 Semana - Programa Master ($3.500 USD)',
+        'program_select_15days': '15 Días - Programa Pro ($5.400 USD)',
+        'program_select_1month': '1 Mes - Programa Élite ($7.900 USD)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol | Gracias por tu Solicitud',
@@ -367,9 +367,9 @@ const translations = {
         
         // Program options
         'program_select': 'Choose a program',
-        'program_select_1week': '1 Week - Master Program ($3,500)',
-        'program_select_15days': '15 Days - Pro Program ($5,400)',
-        'program_select_1month': '1 Month - Elite Program ($7,900)',
+        'program_select_1week': '1 Week - Master Program ($3,500 USD)',
+        'program_select_15days': '15 Days - Pro Program ($5,400 USD)',
+        'program_select_1month': '1 Month - Elite Program ($7,900 USD)',
         
         // Thank you page
         'thanks_page_title': 'Elite Soccer | Thank You for Your Application',
