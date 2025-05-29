@@ -29,6 +29,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
+    padding-top: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -144,11 +145,23 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     padding: 15px 0;
     transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+header.hidden {
+    transform: translateY(-100%);
+}
+
+header.scrolled {
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
 }
 
 header .container {
@@ -429,6 +442,8 @@ nav ul li a.cta-button:after {
     color: white;
     padding: 0;
     overflow: hidden;
+    margin-top: -100px;
+    padding-top: 100px;
 }
 
 .hero .overlay {
@@ -478,10 +493,12 @@ nav ul li a.cta-button:after {
 }
 
 .program-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .program-card {
@@ -489,11 +506,12 @@ nav ul li a.cta-button:after {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    min-width: 300px;
-    max-width: 380px;
     position: relative;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 480px;
 }
 
 .program-card:hover {
@@ -502,7 +520,6 @@ nav ul li a.cta-button:after {
 }
 
 .featured {
-    transform: scale(1.05);
     border: 2px solid var(--secondary-color);
 }
 
@@ -517,6 +534,14 @@ nav ul li a.cta-button:after {
     font-weight: 700;
     text-transform: uppercase;
     z-index: 10;
+}
+
+.premium {
+    position: relative;
+}
+
+.premium-tag {
+    display: none;
 }
 
 .program-image {
@@ -540,20 +565,32 @@ nav ul li a.cta-button:after {
 }
 
 .program-content {
-    padding: 25px;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .program-content h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: var(--primary-color);
 }
 
 .program-content .price {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     color: #2c3e50;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.program-content .program-description {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-style: italic;
 }
 
 .program-content .note {
@@ -566,13 +603,15 @@ nav ul li a.cta-button:after {
 
 .program-content ul {
     margin-bottom: 25px;
+    flex-grow: 1;
 }
 
 .program-content ul li {
-    padding: 8px 0;
+    padding: 6px 0;
     border-bottom: 1px solid #f0f0f0;
     display: flex;
     align-items: baseline;
+    font-size: 0.9rem;
 }
 
 .program-content ul li:last-child {
@@ -587,6 +626,7 @@ nav ul li a.cta-button:after {
 .program-content .btn {
     width: 100%;
     text-align: center;
+    margin-top: auto;
 }
 
 /* Why Us Section */
@@ -1253,4 +1293,23 @@ header .container {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 1200px) {
+    .program-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .program-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 500px;
+    }
+    
+    .program-card {
+        min-height: auto;
+    }
 } 

@@ -72,6 +72,27 @@ const translations = {
         'program_1month_feature13': 'Tour turístico guiado por Madrid, Segovia y Toledo',
         'program_1month_feature14': 'Seguro médico completo incluido',
         
+        // Programa 1 año
+        'program_premium_tag': '🇪🇸 Fichaje Oficial',
+        'program_1year_title': 'Programa Premium – 1 Año en Madrid',
+        'program_1year_description': 'Para jugadores que buscan dar el salto al fútbol profesional europeo. El jugador será fichado oficialmente por el CD Leganés durante toda la temporada, formando parte activa de la estructura del club.',
+        'program_1year_feature0': 'Incorporación oficial a la estructura del CD Leganés',
+        'program_1year_feature1': 'Alojamiento y pensión completa durante todo el año',
+        'program_1year_feature2': 'Entrenamientos diarios con el club bajo metodología profesional',
+        'program_1year_feature3': 'Participación en competencias oficiales con el equipo',
+        'program_1year_feature4': 'Seguimiento técnico-táctico personalizado',
+        'program_1year_feature5': 'Evaluaciones físicas periódicas y planificación individual',
+        'program_1year_feature6': 'Plan nutricional y de recuperación adaptado a cada etapa',
+        'program_1year_feature7': 'Asistencia médica completa y fisioterapia',
+        'program_1year_feature8': 'Sesiones de coaching y preparación mental',
+        'program_1year_feature9': 'Kit completo de entrenamiento y competición del CD Leganés',
+        'program_1year_feature10': 'Acceso a gimnasio, instalaciones y cuerpo técnico del club',
+        'program_1year_feature11': 'Informe profesional trimestral de evolución',
+        'program_1year_feature12': 'Oportunidad real de proyección internacional',
+        'program_1year_feature13': 'Contacto directo con clubes europeos',
+        'program_1year_feature14': 'Actividades culturales y tours por Madrid y alrededores',
+        'program_1year_note': '* Visado aparte del precio',
+        
         // Por qué elegirnos
         'why_us_title': 'Por Qué Elegir Elite Futbol',
         'why_us_subtitle': 'Tu puerta de entrada al fútbol profesional en Europa',
@@ -163,6 +184,7 @@ const translations = {
         'footer_program_1week': 'Programa de 1 Semana',
         'footer_program_15days': 'Programa de 15 Días',
         'footer_program_1month': 'Programa de 1 Mes',
+        'footer_program_1year': 'Programa Premium',
         'footer_contact_title': 'Contáctanos',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, España',
         'footer_copyright': '© 2025 Elite Futbol. Todos los derechos reservados.',
@@ -178,9 +200,10 @@ const translations = {
         
         // Opciones de programa
         'program_select': 'Elegir un programa',
-        'program_select_1week': '1 Semana - Programa Master ($3.500 USD)',
-        'program_select_15days': '15 Días - Programa Pro ($5.400 USD)',
-        'program_select_1month': '1 Mes - Programa Élite ($7.900 USD)',
+        'program_select_1week': '1 Semana - Programa Master (€3.500)',
+        'program_select_15days': '15 Días - Programa Pro (€5.400)',
+        'program_select_1month': '1 Mes - Programa Élite (€7.900)',
+        'program_select_1year': '1 Año - Programa Premium (€19.500)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol | Gracias por tu Solicitud',
@@ -260,6 +283,27 @@ const translations = {
         'program_1month_feature12': 'Complete CD Leganés training and match kit',
         'program_1month_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
         'program_1month_feature14': 'Comprehensive medical insurance included',
+        
+        // 1 Year Program
+        'program_premium_tag': '🇪🇸 Official Signing',
+        'program_1year_title': 'Premium Program – 1 Year in Madrid',
+        'program_1year_description': 'For players seeking to make the jump to European professional soccer. The player will be officially signed by CD Leganés for the entire season, becoming an active part of the club structure.',
+        'program_1year_feature0': 'Official incorporation into CD Leganés structure',
+        'program_1year_feature1': 'Accommodation and full board throughout the year',
+        'program_1year_feature2': 'Daily training with the club under professional methodology',
+        'program_1year_feature3': 'Participation in official competitions with the team',
+        'program_1year_feature4': 'Personalized technical-tactical monitoring',
+        'program_1year_feature5': 'Periodic physical evaluations and individual planning',
+        'program_1year_feature6': 'Nutritional and recovery plan adapted to each stage',
+        'program_1year_feature7': 'Complete medical assistance and physiotherapy',
+        'program_1year_feature8': 'Coaching and mental preparation sessions',
+        'program_1year_feature9': 'Complete CD Leganés training and competition kit',
+        'program_1year_feature10': 'Access to gym, facilities and club technical staff',
+        'program_1year_feature11': 'Quarterly professional development report',
+        'program_1year_feature12': 'Real opportunity for international projection',
+        'program_1year_feature13': 'Direct contact with European clubs',
+        'program_1year_feature14': 'Cultural activities and tours around Madrid and surroundings',
+        'program_1year_note': '* Visa separate from price',
         
         // Why choose us
         'why_us_title': 'Why Choose Elite Soccer',
@@ -352,6 +396,7 @@ const translations = {
         'footer_program_1week': '1 Week Program',
         'footer_program_15days': '15 Days Program',
         'footer_program_1month': '1 Month Program',
+        'footer_program_1year': 'Programa Premium',
         'footer_contact_title': 'Contact Us',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, Spain',
         'footer_copyright': '© 2025 Elite Soccer. All rights reserved.',
@@ -367,9 +412,10 @@ const translations = {
         
         // Program options
         'program_select': 'Choose a program',
-        'program_select_1week': '1 Week - Master Program ($3,500 USD)',
-        'program_select_15days': '15 Days - Pro Program ($5,400 USD)',
-        'program_select_1month': '1 Month - Elite Program ($7,900 USD)',
+        'program_select_1week': '1 Week - Master Program (€3,500)',
+        'program_select_15days': '15 Days - Pro Program (€5,400)',
+        'program_select_1month': '1 Month - Elite Program (€7,900)',
+        'program_select_1year': '1 Year - Premium Program (€19,500)',
         
         // Thank you page
         'thanks_page_title': 'Elite Soccer | Thank You for Your Application',
