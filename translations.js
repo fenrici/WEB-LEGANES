@@ -75,9 +75,10 @@ const translations = {
         // Programa 1 año
         'program_premium_tag': '🇪🇸 Fichaje Oficial',
         'program_1year_title': 'Programa Premium – 1 Año en Madrid',
+        'program_1year_price': 'Consultar',
         'program_1year_description': 'Para jugadores que buscan dar el salto al fútbol profesional europeo. El jugador será fichado oficialmente por el CD Leganés durante toda la temporada, formando parte activa de la estructura del club.',
         'program_1year_requirements_title': 'Requisitos Educativos',
-        'program_1year_requirements_minors': 'Para menores en edad escolar: Continuación de estudios online supervisados',
+        'program_1year_requirements_minors': 'Para menores en edad escolar: modalidad online en su país de origen, ajenos al programa',
         'program_1year_requirements_adults': 'Para mayores con educación secundaria completada: Acceso a grados y cursos en universidades europeas asociadas',
         'program_1year_feature0': 'Incorporación oficial a la estructura del CD Leganés',
         'program_1year_feature1': 'Alojamiento y pensión completa durante todo el año',
@@ -95,6 +96,7 @@ const translations = {
         'program_1year_feature13': 'Contacto directo con clubes europeos',
         'program_1year_feature14': 'Actividades culturales y tours por Madrid y alrededores',
         'program_1year_note': '* Visado aparte del precio',
+        'program_1year_note_airfare': '* Aéreo no incluido',
         
         // Por qué elegirnos
         'why_us_title': 'Por Qué Elegir Elite Futbol',
@@ -127,11 +129,11 @@ const translations = {
         'testimonials_title': 'Casos de Éxito',
         'testimonials_subtitle': 'Escucha a jugadores que aprovecharon su oportunidad con Elite Futbol',
         'testimonial1_text': '"Elite Futbol cambió la trayectoria de mi carrera. Después del programa de un mes, me ofrecieron una prueba con un club de Segunda División B y ahora estoy jugando profesionalmente en España. El entrenamiento y la exposición fueron invaluables."',
-        'testimonial1_name': 'Carlos Mendoza',
+        'testimonial1_name': 'Carlos M.',
         'testimonial2_text': '"El programa de 15 días en CD Leganés me abrió puertas que nunca pensé posibles. El desarrollo técnico y las conexiones profesionales me ayudaron a asegurar un lugar en una academia de primer nivel en Europa."',
-        'testimonial2_name': 'John Reyes',
+        'testimonial2_name': 'John R.',
         'testimonial3_text': '"Llegué a Elite Futbol con talento natural pero me faltaba refinamiento técnico. Los entrenadores identificaron mis fortalezas y debilidades inmediatamente y crearon un plan de desarrollo que transformó mi juego."',
-        'testimonial3_name': 'Miguel Santos',
+        'testimonial3_name': 'Miguel S.',
         
         // Instalaciones
         'facilities_title': 'Instalaciones de Entrenamiento',
@@ -206,7 +208,7 @@ const translations = {
         'program_select_1week': '1 Semana - Programa Master (€3.500)',
         'program_select_15days': '15 Días - Programa Pro (€5.400)',
         'program_select_1month': '1 Mes - Programa Élite (€7.900)',
-        'program_select_1year': '1 Año - Programa Premium (€19.500)',
+        'program_select_1year': '1 Año - Programa Premium (Consultar)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol | Gracias por tu Solicitud',
@@ -290,9 +292,10 @@ const translations = {
         // 1 Year Program
         'program_premium_tag': '🇪🇸 Official Signing',
         'program_1year_title': 'Premium Program – 1 Year in Madrid',
+        'program_1year_price': 'Contact Us',
         'program_1year_description': 'For players seeking to make the jump to European professional soccer. The player will be officially signed by CD Leganés for the entire season, becoming an active part of the club structure.',
         'program_1year_requirements_title': 'Educational Requirements',
-        'program_1year_requirements_minors': 'For minors aged 12-18: Supervised online study continuation',
+        'program_1year_requirements_minors': 'For school-age minors: online schooling in their country of origin, independent of the program',
         'program_1year_requirements_adults': 'For adults with completed secondary education: Access to grades and courses in associated European universities',
         'program_1year_feature0': 'Official incorporation into CD Leganés structure',
         'program_1year_feature1': 'Accommodation and full board throughout the year',
@@ -310,6 +313,7 @@ const translations = {
         'program_1year_feature13': 'Direct contact with European clubs',
         'program_1year_feature14': 'Cultural activities and tours around Madrid and surroundings',
         'program_1year_note': '* Visa separate from price',
+        'program_1year_note_airfare': '* Airfare not included',
         
         // Why choose us
         'why_us_title': 'Why Choose Elite Soccer',
@@ -342,11 +346,11 @@ const translations = {
         'testimonials_title': 'Success Stories',
         'testimonials_subtitle': 'Hear from players who took their chance with Elite Soccer',
         'testimonial1_text': '"Elite Soccer changed the trajectory of my career. After the one-month program, I was offered a trial with a Segunda División B club and am now playing professionally in Spain. The training and exposure were invaluable."',
-        'testimonial1_name': 'Carlos Mendoza',
+        'testimonial1_name': 'Carlos M.',
         'testimonial2_text': '"The 15-day program at CD Leganés opened doors I never thought possible. The technical development and professional connections helped me secure a place at a top-tier academy in Europe."',
-        'testimonial2_name': 'John Reyes',
+        'testimonial2_name': 'John R.',
         'testimonial3_text': '"I came to Elite Soccer with natural talent but lacking technical refinement. The coaches identified my strengths and weaknesses immediately and created a development plan that transformed my game."',
-        'testimonial3_name': 'Miguel Santos',
+        'testimonial3_name': 'Miguel S.',
         
         // Facilities
         'facilities_title': 'Training Facilities',
@@ -421,7 +425,7 @@ const translations = {
         'program_select_1week': '1 Week - Master Program (€3,500)',
         'program_select_15days': '15 Days - Pro Program (€5,400)',
         'program_select_1month': '1 Month - Elite Program (€7,900)',
-        'program_select_1year': '1 Year - Premium Program (€19,500)',
+        'program_select_1year': '1 Year - Premium Program (Contact Us)',
         
         // Thank you page
         'thanks_page_title': 'Elite Soccer | Thank You for Your Application',
