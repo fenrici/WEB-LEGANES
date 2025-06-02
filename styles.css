@@ -511,11 +511,13 @@ nav ul li a.cta-button:after {
 
 .program-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px 20px;
     justify-content: center;
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto;
+    align-items: stretch;
 }
 
 .program-card {
@@ -528,7 +530,6 @@ nav ul li a.cta-button:after {
     display: flex;
     flex-direction: column;
     height: auto;
-    min-height: 480px;
 }
 
 .program-card:hover {
@@ -603,11 +604,10 @@ nav ul li a.cta-button:after {
 }
 
 .program-content .program-description {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: #666;
-    margin-bottom: 15px;
-    line-height: 1.4;
-    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .program-content .note {
@@ -616,6 +616,39 @@ nav ul li a.cta-button:after {
     color: #777;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.program-content .educational-requirements {
+    background-color: #f8f9fa;
+    border-left: 4px solid var(--primary-color);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.program-content .educational-requirements h4 {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.program-content .requirements-list p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: #555;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+}
+
+.program-content .requirements-list i {
+    color: var(--primary-color);
+    margin-right: 8px;
+    margin-top: 2px;
+    flex-shrink: 0;
 }
 
 .program-content ul {
