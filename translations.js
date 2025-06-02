@@ -80,6 +80,8 @@ const translations = {
         'program_1year_requirements_title': 'Requisitos Educativos',
         'program_1year_requirements_minors': 'Para menores en edad escolar: modalidad online en su país de origen, ajenos al programa',
         'program_1year_requirements_adults': 'Para mayores con educación secundaria completada: Acceso a grados y cursos en universidades europeas asociadas',
+        'program_1year_documentation_title': 'Requisitos de Documentación',
+        'program_1year_requirements_passport': 'Requisito indispensable: Pasaporte o ciudadanía europea vigente',
         'program_1year_feature0': 'Incorporación oficial a la estructura del CD Leganés',
         'program_1year_feature1': 'Alojamiento y pensión completa durante todo el año',
         'program_1year_feature2': 'Entrenamientos diarios con el club bajo metodología profesional',
@@ -95,7 +97,7 @@ const translations = {
         'program_1year_feature12': 'Oportunidad real de proyección internacional',
         'program_1year_feature13': 'Contacto directo con clubes europeos',
         'program_1year_feature14': 'Actividades culturales y tours por Madrid y alrededores',
-        'program_1year_note': '* Visado aparte del precio',
+        'program_1year_note': '* La gestión del visado no está incluida en el precio',
         'program_1year_note_airfare': '* Aéreo no incluido',
         
         // Por qué elegirnos
@@ -297,6 +299,8 @@ const translations = {
         'program_1year_requirements_title': 'Educational Requirements',
         'program_1year_requirements_minors': 'For school-age minors: online schooling in their country of origin, independent of the program',
         'program_1year_requirements_adults': 'For adults with completed secondary education: Access to grades and courses in associated European universities',
+        'program_1year_documentation_title': 'Documentation Requirements',
+        'program_1year_requirements_passport': 'Essential requirement: Valid passport or European citizenship',
         'program_1year_feature0': 'Official incorporation into CD Leganés structure',
         'program_1year_feature1': 'Accommodation and full board throughout the year',
         'program_1year_feature2': 'Daily training with the club under professional methodology',
@@ -312,7 +316,7 @@ const translations = {
         'program_1year_feature12': 'Real opportunity for international projection',
         'program_1year_feature13': 'Direct contact with European clubs',
         'program_1year_feature14': 'Cultural activities and tours around Madrid and surroundings',
-        'program_1year_note': '* Visa separate from price',
+        'program_1year_note': '* Visa processing is not included in the price',
         'program_1year_note_airfare': '* Airfare not included',
         
         // Why choose us
