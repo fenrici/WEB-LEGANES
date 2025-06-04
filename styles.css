@@ -511,13 +511,13 @@ nav ul li a.cta-button:after {
 
 .program-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 30px 20px;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    align-items: stretch;
+    align-items: start;
 }
 
 .program-card {
@@ -587,7 +587,7 @@ nav ul li a.cta-button:after {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .program-content h3 {
@@ -614,7 +614,7 @@ nav ul li a.cta-button:after {
     font-size: 14px;
     font-style: italic;
     color: #777;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
@@ -652,8 +652,7 @@ nav ul li a.cta-button:after {
 }
 
 .program-content ul {
-    margin-bottom: 25px;
-    flex-grow: 1;
+    margin-bottom: 15px;
 }
 
 .program-content ul li {
@@ -676,7 +675,7 @@ nav ul li a.cta-button:after {
 .program-content .btn {
     width: 100%;
     text-align: center;
-    margin-top: auto;
+    margin-top: 10px;
 }
 
 /* Why Us Section */
@@ -1362,4 +1361,111 @@ header .container {
     .program-card {
         min-height: auto;
     }
-} 
+}
+
+/* Programs Logo Section */
+.programs-logo-section {
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    height: 0;
+}
+
+.programs-logo {
+    position: absolute;
+    top: -610px;
+    left: 12%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.programs-logo img {
+    max-width: 550px;
+    height: auto;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+/* Media Queries for Programs Logo */
+@media (max-width: 1200px) {
+    .programs-logo {
+        top: -500px;
+        left: 8%;
+    }
+    
+    .programs-logo img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .programs-logo-section {
+        height: auto;
+        margin-top: 30px;
+        position: static;
+    }
+    
+    .programs-logo {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .programs-logo img {
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 576px) {
+    .programs-logo {
+        margin: 15px 0;
+    }
+    
+    .programs-logo img {
+        max-width: 220px;
+    }
+}
+
+/* Force equal height for first 3 program cards */
+.programs .program-cards .program-card:first-child,
+.programs .program-cards .program-card:nth-child(2),
+.programs .program-cards .program-card:nth-child(3) {
+    height: 950px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.programs .program-cards .program-card:first-child .program-content,
+.programs .program-cards .program-card:nth-child(2) .program-content,
+.programs .program-cards .program-card:nth-child(3) .program-content {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    flex-grow: 1 !important;
+}
+
+.programs .program-cards .program-card:first-child .program-content ul,
+.programs .program-cards .program-card:nth-child(2) .program-content ul {
+    flex-grow: 2 !important;
+    margin-bottom: 30px !important;
+}
+
+.programs .program-cards .program-card:nth-child(3) .program-content ul {
+    flex-grow: 1 !important;
+    margin-bottom: 20px !important;
+}
+
+.programs .program-cards .program-card:first-child .btn,
+.programs .program-cards .program-card:nth-child(2) .btn,
+.programs .program-cards .program-card:nth-child(3) .btn {
+    margin-top: auto !important;
+}
