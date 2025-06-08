@@ -111,7 +111,7 @@ const translations = {
         // Programa 1 año
         'program_premium_tag': '🇪🇸 Fichaje Oficial',
         'program_1year_title': 'Programa Premium – 1 Año en Madrid',
-        'program_1year_price': '€33.000',
+        'program_1year_price': '€29.500',
         'program_1year_description': 'Para jugadores que buscan dar el salto al fútbol profesional europeo. El jugador será fichado oficialmente por el CD Leganés durante toda la temporada, formando parte activa de la estructura del club.',
         'program_1year_requirements_title': 'Requisitos Educativos',
         'program_1year_requirements_minors': 'Para menores en edad escolar: modalidad online en su país de origen, ajenos al programa',
@@ -248,7 +248,7 @@ const translations = {
         'program_select_1month': '1 Mes - Programa Élite (€7.900)',
         'program_select_2months': '2 Meses - Programa Avanzado (€10.200)',
         'program_select_3months': '3 Meses - Programa Superior (€12.500)',
-        'program_select_1year': '1 Año - Programa Premium (€33.000)',
+        'program_select_1year': '1 Año - Programa Premium (€29.500)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol | Gracias por tu Solicitud',
@@ -368,7 +368,7 @@ const translations = {
         // 1 Year Program
         'program_premium_tag': '🇪🇸 Official Signing',
         'program_1year_title': 'Premium Program – 1 Year in Madrid',
-        'program_1year_price': '€33.000',
+        'program_1year_price': '€29.500',
         'program_1year_description': 'For players seeking to make the jump to European professional soccer. The player will be officially signed by CD Leganés for the entire season, becoming an active part of the club structure.',
         'program_1year_requirements_title': 'Educational Requirements',
         'program_1year_requirements_minors': 'For school-age minors: online schooling in their country of origin, independent of the program',
@@ -505,7 +505,7 @@ const translations = {
         'program_select_1month': '1 Month - Elite Program (€7,900)',
         'program_select_2months': '2 Months - Advanced Program (€10,200)',
         'program_select_3months': '3 Months - Superior Program (€12,500)',
-        'program_select_1year': '1 Year - Premium Program (€33.000)',
+        'program_select_1year': '1 Year - Premium Program (€29.500)',
         
         // Thank you page
         'thanks_page_title': 'Elite Soccer | Thank You for Your Application',
