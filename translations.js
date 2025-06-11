@@ -248,7 +248,7 @@ const translations = {
         'program_select_1month': '1 Mes - Programa Élite (€7.900)',
         'program_select_2months': '2 Meses - Programa Avanzado (€10.200)',
         'program_select_3months': '3 Meses - Programa Superior (€12.500)',
-        'program_select_1year': '1 Año - Programa Premium (€29.500)',
+        'program_select_1year': '1 Año - Programa Premium (€25.500)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol | Gracias por tu Solicitud',
@@ -505,7 +505,7 @@ const translations = {
         'program_select_1month': '1 Month - Elite Program (€7,900)',
         'program_select_2months': '2 Months - Advanced Program (€10,200)',
         'program_select_3months': '3 Months - Superior Program (€12,500)',
-        'program_select_1year': '1 Year - Premium Program (€29.500)',
+        'program_select_1year': '1 Year - Premium Program (€25.500)',
         
         // Thank you page
         'thanks_page_title': 'Elite Soccer | Thank You for Your Application',
